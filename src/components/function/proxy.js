@@ -1,5 +1,5 @@
 const getProxyApi = (param)=>{
-    return 'http://localhost:4000/api/' + param;
+    return 'https://lenifia-administration-gtfs-main-puzaqetdua-wm.a.run.app/' + param;
 }
 
 export default getProxyApi;
