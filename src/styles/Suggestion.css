@@ -1,0 +1,48 @@
+.Suggestion .content{
+    background-color: #fdfdfd;
+    padding: 2.5rem 1.5rem;
+    width: 100%;
+   /* border: 7px double #dbdbdb;*/
+}
+
+
+.Suggestion .content h2{
+    font-weight: 600;
+    font-size: 2em;
+    color: #797171;
+}
+
+.Suggestion .content p{
+    font-weight: 600;
+    font-size: 1.2em;
+    color: #485e5f;
+    padding: 1rem 0;
+
+}
+
+.Suggestion .content p span{
+    font-weight: 600;
+    font-size: 1.2em;
+    color: #008fbb;
+    padding: 1rem 0;
+}
+
+.press{
+    font-size: 1em;
+    padding: .6rem 1.5rem;
+    background-color: rgb(43, 43, 51);
+    color:#ffff;
+    border: none;
+    margin-right: 2rem;
+}
+
+.download{
+    font-size: 1em;
+    padding: .6rem 1.5rem;
+    background-color: rgb(94, 94, 141);
+    color:#ffff;
+    border: none;
+}
+
+
+

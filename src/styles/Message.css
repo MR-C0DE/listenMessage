@@ -1,0 +1,44 @@
+.Message{
+    padding: 2rem 0;
+}
+.Message .message-content h3{
+    font-size: 2rem;
+    padding: 1rem 0;
+    font-weight: bold;
+}
+
+.Message .message-content p{
+    padding-bottom: 1rem;
+}
+
+.Message .message-content form{
+    width: 35rem;
+    margin: 0 auto;
+    padding: 3rem;
+    text-align: center;
+}
+.Message .message-content form select, textarea, input[type="text"]{
+    width: 100%;
+    padding: 10px 7px;
+    margin: 12px 0;
+    border: 2px solid rgb(82, 82, 82);
+    font: 1em calibri;
+    border-radius: 2px;
+    background-color: #ffffff;
+}
+.Message .message-content form select{
+    width: 103%;
+}
+.Message .message-content form textarea, input[type="text"]{
+    resize: none;
+}
+.Message .message-content form input[type="button"]{
+    width: 20rem;
+    padding: 10px 7px;
+    margin: 12px 0;
+    border: none;
+    font: 1em calibri;
+    border-radius: 2px;
+    background-color:#008fbb;
+    color: #ffffff;
+}

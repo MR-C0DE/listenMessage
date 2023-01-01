@@ -1,0 +1,31 @@
+.Header{
+    padding: 1rem 0;
+}
+.Header .title{
+    padding-bottom: 2.5rem;
+}
+
+.Header .title h1{
+    color: #008fbb;
+    font-size: 3rem;
+    padding: 2rem 0;
+    font-weight: 600;
+}
+
+.Header .title p{
+    color: #424242;
+    font-size: 2rem;
+
+    font-weight: 500;
+}
+
+.Header .legende{
+    color: #696969;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.Header .auteur{
+    color: black;
+    font-style: italic;
+}
