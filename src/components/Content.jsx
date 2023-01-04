@@ -7,7 +7,7 @@ const Content = () => {
     const [data, setData] = useState([]);
     const getData = async ()=> {
         const headers = { 'Content-Type': 'application/json' }
-        fetch(getProxyApi('contenu'), { headers })
+        fetch(getProxyApi('api/contenu'), { headers })
             .then(response => response.json())
             .then(dataRecevied=> setData(dataRecevied));
             return true;
@@ -26,7 +26,7 @@ const Content = () => {
             date_interaction: new Date().toUTCString()
         }
 
-        let response =  await fetch('/interaction', {
+        let response =  await fetch(getProxyApi('interaction'), {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify(dataSend)

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './../styles/Message.css';
+import getProxyApi from './function/proxy';
 
 const Message = () =>{
     const [inputPrenom, setInputPrenom] = useState('');
@@ -43,7 +44,7 @@ const Message = () =>{
             date_interaction: new Date().toUTCString()
         }
 
-        let response =  await fetch('/interaction', {
+        let response =  await fetch(getProxyApi('interaction'), {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify(dataSend)
@@ -58,7 +59,6 @@ const Message = () =>{
 
         if(inputCourriel === inputConfirmation){
 
-        
             const data = {
                 prenom : inputPrenom,
                 nom    : inputNom,
@@ -67,7 +67,7 @@ const Message = () =>{
                 message : textMessage
             }
 
-            let response = await fetch('/api/message', {
+            let response = await fetch(getProxyApi('api/message'), {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify(data)

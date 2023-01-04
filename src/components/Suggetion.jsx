@@ -7,7 +7,7 @@ const Suggestion = () => {
     const [data, setData] = useState({sermon:'', link_listen:'', link_download:''});
     const getData = async ()=> {
         const headers = { 'Content-Type': 'application/json' }
-        fetch(getProxyApi('suggestion'), { headers })
+        fetch(getProxyApi('api/suggestion'), { headers })
             .then(response => response.json())
             .then(dataRecevied=> setData(dataRecevied));
             return true;
@@ -25,7 +25,7 @@ const Suggestion = () => {
             date_interaction: new Date().toUTCString()
         }
 
-        let response =  await fetch('/interaction', {
+        let response =  await fetch(getProxyApi('interaction'), {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify(dataSend)
