@@ -12,13 +12,13 @@
 }
 
 .Message .message-content form{
-    width: 35rem;
     margin: 0 auto;
-    padding: 3rem;
+    padding: 3rem 0;
     text-align: center;
 }
+
 .Message .message-content form select, textarea, input[type="text"]{
-    width: 100%;
+    width: 70%;
     padding: 10px 7px;
     margin: 12px 0;
     border: 2px solid rgb(82, 82, 82);
@@ -27,7 +27,7 @@
     background-color: #ffffff;
 }
 .Message .message-content form select{
-    width: 103%;
+    width: 71.5%;
 }
 .Message .message-content form textarea, input[type="text"]{
     resize: none;
@@ -44,24 +44,11 @@
 }
 
 @media(max-width: 40rem) {
-    .Message{
-        width: 100%;
-        padding: 2rem 0;
-    }
-    .Message .message-content form{
-        width: 80%;
-        margin: 0 ;
-        padding: 3rem;
-        text-align: left;
-        background-color: red;
-    }
-    .Message .message-content form select, textarea, input[type="text"]{
-        width: 100%;
-        padding: 10px 7px;
-        margin: 12px 0;
-        border: 2px solid rgb(82, 82, 82);
-        font: 1em calibri;
-        border-radius: 2px;
-        background-color: #ffffff;
+
+
+
+    .Message .message-content form input[type="button"]{
+        width: 70%;
+
     }
 }
