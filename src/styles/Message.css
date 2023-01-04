@@ -42,3 +42,26 @@
     background-color:#008fbb;
     color: #ffffff;
 }
+
+@media(max-width: 40rem) {
+    .Message{
+        width: 100%;
+        padding: 2rem 0;
+    }
+    .Message .message-content form{
+        width: 80%;
+        margin: 0 ;
+        padding: 3rem;
+        text-align: left;
+        background-color: red;
+    }
+    .Message .message-content form select, textarea, input[type="text"]{
+        width: 100%;
+        padding: 10px 7px;
+        margin: 12px 0;
+        border: 2px solid rgb(82, 82, 82);
+        font: 1em calibri;
+        border-radius: 2px;
+        background-color: #ffffff;
+    }
+}
