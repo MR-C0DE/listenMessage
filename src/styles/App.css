@@ -1,3 +1,10 @@
 .App{
   background-color: #ffffff;
 }
+
+@media(max-width: 40rem) {
+  .App{
+    font-family: calibri;
+  }
+
+}

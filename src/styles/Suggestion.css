@@ -52,4 +52,38 @@
         max-width: 90%;
        /* border: 7px double #dbdbdb;*/
     }
+    .Suggestion .content h2{
+        font-weight: bold;
+        font-size: 2.4em;
+
+    }
+    
+    .Suggestion .content p{
+        font-size: 1.8em;
+        padding: 2rem 0;
+    
+    }
+    
+    .Suggestion .content p span{
+        font-weight: 600;
+        font-size: 1.2em;
+        color: #008fbb;
+        padding: 1rem 0;
+    }
+    
+    .press{
+        width: 100%;
+        font-size: 1.2em;
+        padding: 1.5rem 1.5rem;
+        background-color: rgb(43, 43, 51);
+
+    }
+    
+    .download{
+        width: 100%;
+        font-size: 1.2em;
+        padding: 1.5rem 1.5rem;
+   
+    }
+    
 }

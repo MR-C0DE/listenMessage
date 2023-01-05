@@ -34,4 +34,17 @@
     .Header{
         padding: 0 2rem;
     }
+    .Header .title h1{
+        font-size: 2.7rem;
+        padding: 3rem 0;
+        font-weight: bold;
+    }
+    .Header .title p{
+        font-weight: bold;
+    }
+    .Header .legende{
+        font-size: 1.8em;
+        line-height: 1.2;
+    }
+    
 }
